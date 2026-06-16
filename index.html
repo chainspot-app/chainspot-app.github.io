@@ -1,11 +1,282 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0;url=https://crypto-swap.us/">
-  <script>
-    location.replace("https://crypto-swap.us/");
-  </script>
-</head>
-<body></body>
-</html>
+<!DOCTYPE html>
+<html dir="ltr" lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Chainspot — Cross-Chain Bridge</title>
+<meta content="Chainspot is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet." name="description"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/>
+<link href="https://chainspot-app.github.io/" rel="canonical"/>
+<link href="https://chainspot-app.github.io/" hreflang="en" rel="alternate"/><link href="https://chainspot-app.github.io/" hreflang="x-default" rel="alternate"/>
+<meta content="#0F0809" name="theme-color"/>
+<meta content="website" property="og:type"/><meta content="Chainspot — Cross-Chain Bridge" property="og:title"/><meta content="Chainspot is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet." property="og:description"/>
+<meta content="https://chainspot-app.github.io/" property="og:url"/><meta content="https://chainspot-app.github.io/og-cover.png" property="og:image"/><meta content="en" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/><meta content="Chainspot — Cross-Chain Bridge" name="twitter:title"/><meta content="Chainspot is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet." name="twitter:description"/><meta content="https://chainspot-app.github.io/og-cover.png" name="twitter:image"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/><link href="site.webmanifest" rel="manifest"/><link href="static/icon-180.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="static/style.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://chainspot-app.github.io/#website",
+      "url": "https://chainspot-app.github.io/",
+      "name": "Chainspot"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://chainspot-app.github.io/#webpage",
+      "url": "https://chainspot-app.github.io/",
+      "name": "Chainspot — Cross-Chain Bridge",
+      "description": "Chainspot is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://chainspot-app.github.io/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://chainspot-app.github.io/#org",
+      "name": "Chainspot",
+      "url": "https://chainspot-app.github.io/",
+      "logo": "https://chainspot-app.github.io/og-cover.png"
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://chainspot-app.github.io/#app",
+      "name": "Chainspot",
+      "url": "https://chainspot-app.github.io/",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "browserRequirements": "Requires JavaScript",
+      "description": "Chainspot is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet.",
+      "featureList": [
+        "Cross-Chain Bridge",
+        "Bridge across chains, in minutes"
+      ],
+      "isPartOf": {
+        "@id": "https://chainspot-app.github.io/#website"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://chainspot-app.github.io/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Chainspot an exchange or a bridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chainspot is best understood as a non-custodial cross-chain routing and aggregation layer, not a centralized exchange account. The official Chainspot docs describe an omnichain protocol that aggregates liquidity and yield protocols across EVM and non-EVM chains."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What chains does Chainspot support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chainspot lists many supported chains, bridges, DEX categories, and routers in its official ecosystem docs. Treat that page as a starting point, then verify the exact token, direction, and amount in the live route before signing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Chainspot choose a route?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chainspot says its liquidity routing module queries connected liquidity providers, including DEXs, bridges, and routers, to assemble paths for asset swaps. The official liquidity routing page is the best source for the routing model. Provider availability can still vary by pair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What fees apply when using Chainspot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees are route components rather than one fixed number: source gas, token approval gas, destination execution or claim costs, bridge or liquidity-provider costs, route spread, and any displayed protocol or integration fee. Chainspot's monetization docs show that partner integrations may add configurable commission logic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chainspot non-custodial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chainspot describes the protocol as non-custodial and says users interact through smart contracts and signed transactions. Its architecture overview explains the split between on-chain fund logic and off-chain routing modules. Non-custodial does not remove smart-contract, bridge, or user-error risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I check before using Chainspot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confirm the official URL, wallet network, token contract, receiving address, provider path, allowance, fee components, expected output, and transfer status. Chainspot's user guide shows the normal wallet and transaction flow, while Ethereum.org's bridge guide explains broader cross-chain risk."
+          }
+        }
+      ]
+    }
+  ]
+}</script></head>
+<body>
+<header class="site-header">
+<a aria-label="Chainspot" class="brand" href="#top">
+<svg aria-hidden="true" class="brand-mark" viewbox="0 0 32 32"><defs><lineargradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#FBCFD5"></stop><stop offset=".5" stop-color="#F3929E"></stop><stop offset="1" stop-color="#E8334B"></stop></lineargradient></defs><g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><circle cx="13" cy="13" r="6.2"></circle><circle cx="20" cy="20" r="6.2"></circle></g></svg>
+<h1>Chainspot</h1>
+</a>
+<nav aria-label="Primary" class="site-nav"><ul class="nav-list"><li><a href="#how-it-works">How it works</a></li><li><a href="#routing-security">Routing security</a></li><li><a href="#fees-availability">Fees availability</a></li><li><a href="#route-checks">Route checks</a></li><li><a href="#ecosystem">Ecosystem</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+<span class="header-spacer"></span>
+<a class="cta cta-primary header-cta" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open Chainspot</a>
+<button aria-expanded="false" aria-label="Menu" class="nav-toggle"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+</header>
+<main id="top">
+<section class="hero"><div class="container"><div class="hero-grid">
+<div class="hero-copy">
+<h2 class="hero-title">Bridge across chains, in minutes</h2>
+<p class="lead"><strong>Chainspot</strong> — Compare cross-chain swap and bridge routes while reviewing liquidity providers, fees, timing, and wallet risk.</p>
+<div class="hero-cta-row"><a class="cta cta-primary" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open Chainspot ↗</a><a class="cta cta-secondary" href="#what-is">Learn more</a></div>
+<p class="hero-note">Live preview — open Chainspot to bridge.</p><div class="trust-row"><span class="trust-chip">On-chain</span><span class="trust-chip">Non-custodial</span></div>
+</div>
+<div class="hero-widget">
+<div aria-hidden="true" class="floating-coins"></div>
+<div class="swap-widget" id="app-widget">
+<div class="swap-widget-head"><span>Bridge</span><span class="badge">Bridge</span></div>
+<div class="swap-row"><div class="swap-col"><span class="swap-label">From</span><span class="swap-amount">1.00</span></div><span class="token-chip" data-slot="from"><span class="token-icon-morph"><img alt="USDC" class="" decoding="async" height="28" loading="lazy" src="usdc.png" width="28"/></span><span class="token-ticker">USDC</span></span></div>
+<div class="swap-flip-wrap"><button aria-label="Switch" class="swap-flip" type="button"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M7 4v16M7 20l-3-3M7 4l3 3M17 20V4M17 4l3 3M17 20l-3-3"></path></svg></button></div>
+<div class="swap-row"><div class="swap-col"><span class="swap-label">To</span><span class="swap-amount">~1.00</span></div><span class="token-chip" data-slot="to"><span class="token-icon-morph"><img alt="ETH" class="" decoding="async" height="28" loading="lazy" src="eth.png" width="28"/></span><span class="token-ticker">ETH</span></span></div>
+<a class="cta cta-primary swap-now-main" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open Chainspot ↗</a>
+<p class="swap-note">Preview — open Chainspot to bridge.</p>
+</div>
+</div>
+</div></div></section>
+<section class="section section-alt" id="what-is"><div class="container"><h2>What is Chainspot?</h2><div class="capsule"><strong>Chainspot</strong> is a non-custodial omnichain DeFi protocol and router for cross-chain swaps, bridge routes, gas refuel, analytics, and integration use cases. Its official <a href="https://docs.chainspot.io/" rel="noopener noreferrer">Chainspot docs</a> describe aggregation across EVM and non-EVM networks, with routing that can combine DEXs, bridges, routers, and yield integrations. Users should treat it as an interface and routing layer, not as a guarantee about any underlying provider.</div></div></section>
+<section class="section section-alt" id="how-it-works">
+<div class="container"><h2>How Chainspot works</h2><p class="section-intro">Chainspot asks for the source chain, destination chain, token, amount, and wallet details, then assembles available routes from connected liquidity providers. The final quote is the important object to review before signing.</p>
+<ol class="steps"><li><strong>Choose the route</strong><span>Select the origin network, destination network, input token, output token, amount, and recipient if the flow allows a separate address.</span></li><li><strong>Compare providers</strong><span>Review the displayed path because a route may involve a DEX, bridge, router, or a combination of providers.</span></li><li><strong>Check costs</strong><span>Look for source gas, approval gas, destination execution gas, bridge costs, protocol fee components, and quoted output.</span></li><li><strong>Sign and monitor</strong><span>Approve only the needed token allowance, sign the transfer, then track status until the destination asset arrives or a follow-up step is shown.</span></li></ol>
+</div>
+</section>
+<section class="section" id="routing-security">
+<div class="container"><h2>Routing and security</h2><p class="section-intro">Chainspot is a router over external liquidity and bridge infrastructure, so the selected path defines much of the user risk. Read the route, not only the headline output.</p>
+<div class="cards three"><article class="card"><h3>Liquidity routing</h3><p>Chainspot's <a href="https://docs.chainspot.io/architecture/liquidity-routing" rel="noopener noreferrer">liquidity routing docs</a> say the system queries connected DEXs, bridges, and routers, then assembles a path for same-chain or cross-chain swaps. Provider choice, token support, and inventory can change the result.</p></article><article class="card"><h3>Non-custodial design</h3><p>The official architecture notes that core business logic for user funds is handled through smart contracts while off-chain modules assemble routes and calldata. Read the <a href="https://docs.chainspot.io/architecture/overview" rel="noopener noreferrer">architecture overview</a> to understand the on-chain and off-chain split.</p></article><article class="card"><h3>Security review</h3><p>Chainspot documents multiple audit reports and a security approach covering smart contracts, aggregation modules, and cross-chain messaging components. Start with the official <a href="https://docs.chainspot.io/security/approach" rel="noopener noreferrer">security approach</a>, then review the specific provider selected in your route.</p></article></div>
+</div>
+</section>
+<section class="section section-alt" id="fees-availability">
+<div class="container"><h2>Fees, timing, and availability</h2><p class="section-intro">There is no single Chainspot fee or universal arrival time. The cost and timing depend on the selected route, gas conditions, token approvals, bridge design, and destination network requirements.</p>
+<div class="cards three"><article class="card"><h3>Fee components</h3><p>Expect network gas, approval gas when needed, bridge or liquidity-provider costs, route spread, and any displayed protocol or partner fee. Chainspot's <a href="https://docs.chainspot.io/integration/monetization" rel="noopener noreferrer">monetization docs</a> show that integrations may include configurable commission logic.</p></article><article class="card"><h3>Supported networks</h3><p>Chain and token availability is route-specific. The official <a href="https://docs.chainspot.io/overview/ecosystem" rel="noopener noreferrer">ecosystem page</a> lists supported chains, bridges, DEX categories, and routers, but the live quote still decides whether a specific pair is available.</p></article><article class="card"><h3>Bridge risk</h3><p>Cross-chain transfers can expose users to smart-contract risk, bridge-verifier risk, liquidity risk, wrong-network deposits, and phishing. Ethereum.org's <a href="https://ethereum.org/en/bridges/" rel="noopener noreferrer">bridge overview</a> is a useful neutral primer before moving meaningful funds.</p></article></div>
+</div>
+</section>
+<section class="section" id="route-checks">
+<div class="container">
+<h2>Chainspot Route Checks</h2>
+<p class="section-intro">Use these checks before signing a Chainspot swap or bridge route.</p>
+<div class="coin-grid">
+<article class="coin-card featured">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">URL</span>
+<div><h3>Official Entry</h3><p class="coin-sub">Start from the canonical site <span class="tag">Verify</span></p></div>
+</div>
+<p class="coin-intent">Open Chainspot from the official domain or docs, then verify the app URL before connecting a wallet. Avoid search ads and direct-message links.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="URL" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">FROM</span>
+<div><h3>Source Chain</h3><p class="coin-sub">Where funds leave <span class="tag">Network</span></p></div>
+</div>
+<p class="coin-intent">Confirm the wallet network, input token contract, and gas asset before approving. A wrong source network can create a failed or unusable route.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="FROM" href="https://docs.chainspot.io/guides/user-guide" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">TO</span>
+<div><h3>Destination Chain</h3><p class="coin-sub">Where assets arrive <span class="tag">Receive</span></p></div>
+</div>
+<p class="coin-intent">Check that the receiving wallet supports the destination network and token representation. Token names can match while contract addresses differ.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="TO" href="https://docs.chainspot.io/overview/ecosystem" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">PATH</span>
+<div><h3>Provider Path</h3><p class="coin-sub">Bridge, DEX, or router <span class="tag">Route</span></p></div>
+</div>
+<p class="coin-intent">Read the route provider before signing. Each bridge or router can have different security assumptions, liquidity, timing, and claim behavior.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="PATH" href="https://docs.chainspot.io/architecture/liquidity-routing" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">ALLOW</span>
+<div><h3>Allowance</h3><p class="coin-sub">Token approval scope <span class="tag">Wallet</span></p></div>
+</div>
+<p class="coin-intent">Approve only what the transaction requires when possible. After the route is complete, review allowances if the wallet or token is sensitive.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="ALLOW" href="https://ethereum.org/en/guides/how-to-revoke-token-access/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">STAT</span>
+<div><h3>Status Tracking</h3><p class="coin-sub">Follow transfer state <span class="tag">Monitor</span></p></div>
+</div>
+<p class="coin-intent">Track the transaction until the output asset is delivered or the interface shows a required follow-up. Do not assume every cross-chain flow settles the same way.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="STAT" href="https://docs.chainspot.io/integration/api/web3-api" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+</div>
+</div>
+</section>
+<section class="section section-alt" id="ecosystem">
+<div class="container">
+<h2>Ecosystem Pieces to Know</h2>
+<p class="section-intro">Chainspot routes can involve multiple networks and providers, so these references help identify what is underneath a quote.</p>
+<div class="coin-grid">
+<article class="coin-card featured">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">ROUTE</span>
+<div><h3>Chainspot Router</h3><p class="coin-sub">Routing engine and API <span class="tag">Core</span></p></div>
+</div>
+<p class="coin-intent">Use this as the Chainspot layer that creates route data for swaps and integrations. For developers, the API docs explain transaction creation and status requests.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="ROUTE" href="https://docs.chainspot.io/integration/api/web3-api" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">PORT</span>
+<div><h3>Chainspot Portal</h3><p class="coin-sub">Bridge listings and analytics <span class="tag">Research</span></p></div>
+</div>
+<p class="coin-intent">Use the portal to research bridges and chain coverage before choosing a route. Portal data is informational and should be checked against the live quote.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="PORT" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><img alt="STG" class="coin-icon" decoding="async" height="40" loading="lazy" src="stg.png" width="40"/>
+<div><h3>Stargate</h3><p class="coin-sub">Integrated bridge option <span class="tag">Bridge</span></p></div>
+</div>
+<p class="coin-intent">Stargate may appear as a route provider where supported. Review the exact Chainspot quote and Stargate documentation for the selected asset path.</p>
+<a class="cta cta-mini swap-now" data-icon="stg.png" data-ticker="STG" href="https://stargate.finance/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">ACRS</span>
+<div><h3>Across</h3><p class="coin-sub">Intent-style bridge option <span class="tag">Bridge</span></p></div>
+</div>
+<p class="coin-intent">Across routes can be useful when available for a token and chain pair. Confirm provider costs, output token, and destination chain before signing.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="ACRS" href="https://across.to/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><img alt="CELR" class="coin-icon" decoding="async" height="40" loading="lazy" src="celr.png" width="40"/>
+<div><h3>Celer cBridge</h3><p class="coin-sub">Cross-chain bridge option <span class="tag">Bridge</span></p></div>
+</div>
+<p class="coin-intent">cBridge is one of the bridge providers users may research when Chainspot surfaces a compatible route. Read provider assumptions before moving funds.</p>
+<a class="cta cta-mini swap-now" data-icon="celr.png" data-ticker="CELR" href="https://www.celer.network/cbridge" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">SIS</span>
+<div><h3>Symbiosis</h3><p class="coin-sub">Cross-chain swap provider <span class="tag">Swap</span></p></div>
+</div>
+<p class="coin-intent">Symbiosis can support cross-chain swap-style flows. If it appears in a route, check the output token and chain-specific liquidity details.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="SIS" href="https://symbiosis.finance/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="compare"><div class="container"><h2>Chainspot Route Comparison</h2><p class="section-intro">Chainspot aggregates paths instead of making every transfer use one bridge design. Its <a href="https://docs.chainspot.io/architecture/liquidity-routing" rel="noopener noreferrer">liquidity routing docs</a> describe connections to DEXs, bridges, and routers.</p>
+<div class="table-wrap"><table class="compare-table"><thead><tr><th>Route type</th><th>What to check</th><th>Typical fit</th></tr></thead><tbody><tr><td>Bridge route</td><td>Provider, verifier model, liquidity, gas, destination token</td><td>Moving the same asset across chains</td></tr><tr><td>Cross-chain swap</td><td>Bridge leg, swap leg, price impact, output contract</td><td>Receiving a different token on another chain</td></tr><tr><td>On-chain swap</td><td>DEX path, slippage, approval, token contract</td><td>Swapping assets within one network</td></tr><tr><td>API integration</td><td>Route creation, status checks, fee settings, compliance needs</td><td>Wallets, apps, or fintech products adding routing</td></tr></tbody></table></div></div></section>
+<section class="section" id="faq"><div class="container"><h2>Chainspot FAQ</h2><div class="faq-list">
+<details open=""><summary><h3>Is Chainspot an exchange or a bridge?</h3></summary><div>Chainspot is best understood as a non-custodial cross-chain routing and aggregation layer, not a centralized exchange account. The official <a href="https://docs.chainspot.io/" rel="noopener noreferrer">Chainspot docs</a> describe an omnichain protocol that aggregates liquidity and yield protocols across EVM and non-EVM chains.</div></details>
+<details open=""><summary><h3>What chains does Chainspot support?</h3></summary><div>Chainspot lists many supported chains, bridges, DEX categories, and routers in its official <a href="https://docs.chainspot.io/overview/ecosystem" rel="noopener noreferrer">ecosystem docs</a>. Treat that page as a starting point, then verify the exact token, direction, and amount in the live route before signing.</div></details>
+<details><summary><h3>How does Chainspot choose a route?</h3></summary><div>Chainspot says its liquidity routing module queries connected liquidity providers, including DEXs, bridges, and routers, to assemble paths for asset swaps. The official <a href="https://docs.chainspot.io/architecture/liquidity-routing" rel="noopener noreferrer">liquidity routing page</a> is the best source for the routing model. Provider availability can still vary by pair.</div></details>
+<details><summary><h3>What fees apply when using Chainspot?</h3></summary><div>Fees are route components rather than one fixed number: source gas, token approval gas, destination execution or claim costs, bridge or liquidity-provider costs, route spread, and any displayed protocol or integration fee. Chainspot's <a href="https://docs.chainspot.io/integration/monetization" rel="noopener noreferrer">monetization docs</a> show that partner integrations may add configurable commission logic.</div></details>
+<details><summary><h3>Is Chainspot non-custodial?</h3></summary><div>Chainspot describes the protocol as non-custodial and says users interact through smart contracts and signed transactions. Its <a href="https://docs.chainspot.io/architecture/overview" rel="noopener noreferrer">architecture overview</a> explains the split between on-chain fund logic and off-chain routing modules. Non-custodial does not remove smart-contract, bridge, or user-error risk.</div></details>
+<details><summary><h3>What should I check before using Chainspot?</h3></summary><div>Confirm the official URL, wallet network, token contract, receiving address, provider path, allowance, fee components, expected output, and transfer status. Chainspot's <a href="https://docs.chainspot.io/guides/user-guide" rel="noopener noreferrer">user guide</a> shows the normal wallet and transaction flow, while Ethereum.org's bridge guide explains broader cross-chain risk.</div></details>
+</div></div></section>
+</main>
+<footer class="site-footer"><div class="container">
+<nav aria-label="Footer" class="footer-nav"><a href="#how-it-works">How it works</a><a href="#routing-security">Routing security</a><a href="#fees-availability">Fees availability</a><a href="#route-checks">Route checks</a><a href="#ecosystem">Ecosystem</a><a href="#faq">FAQ</a></nav>
+<p class="footer-note">Not the official Chainspot app — verify the domain before connecting a wallet. Information on this page is for educational purposes only and is not financial advice.</p>
+<p class="footer-meta"><a href="#top">Back to top ↑</a></p>
+</div></footer>
+<script defer="" src="static/app.js"></script>
+</body></html>
