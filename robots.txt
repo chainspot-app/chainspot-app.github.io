@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://chainspot-app.github.io/sitemap.xml
